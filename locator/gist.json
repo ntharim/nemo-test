@@ -1,0 +1,18 @@
+{
+  "description": {
+    "locator": "#gists .form.description-field input",
+    "type": "css"
+  },
+  "name": {
+    "locator": "#gists #files .name input",
+    "type": "css"
+  },
+  "input": {
+    "locator": "#gists #files .input textarea",
+    "type": "css"
+  },
+  "createSecret": {
+    "locator": ".form-actions button.button.secret",
+    "type": "css"
+  }
+}
