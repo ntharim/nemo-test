@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Nemo test",
   "main": "index.js",
+  "private": true,
   "dependencies": {
     "nemo": "^0.2.4",
     "nemo-drivex": "^0.1.4",

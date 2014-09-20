@@ -15,6 +15,10 @@ nemo.setup({
 }).then(function (n) {
   n.driver.get(n.props.targetBaseUrl);
   var gist = n.view.gist;
+  gist.signin().click();
+  gist.signinUsername().sendKeys(process.env.GITHUB_USERNAME);
+  gist.signinPassword().sendKeys(process.env.GITHUB_PASSWORD);
+  gist.signinForm().submit();
   gist.description().sendKeys('My Secret Gist');
   gist.name().sendKeys('my-secret-gist');
   gist.input().sendKeys('CONFIDENTIAL GIST');

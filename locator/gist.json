@@ -1,4 +1,20 @@
 {
+  "signin": {
+    "locator": "Sign in",
+    "type": "partialLinkText"
+  },
+  "signinUsername": {
+    "locator": "login",
+    "type": "name"
+  },
+  "signinPassword": {
+    "locator": "password",
+    "type": "name"
+  },
+  "signinForm": {
+    "locator": "form[action='/session']",
+    "type": "css"
+  },
   "description": {
     "locator": "#gists .form.description-field input",
     "type": "css"
